@@ -1,6 +1,6 @@
 ## EzCreate
 
-EzStorage is a sJavascript tool that creates an HTML element, gives it a class, an id, and appends it to another HTML element.
+EzCreate is a sJavascript tool that creates an HTML element, gives it a class, an id, and appends it to another HTML element.
 
 ### Built With
 
@@ -33,11 +33,11 @@ sudo apt-get install -y nodejs
 
 Install this package with NPM:
 ```sh
-npm install -D ez-storage
+npm install -D ez-create
 ```
 then you just need to import the module on the javascript file where you will use it:
 ```sh
-import EzStorage from 'ez-create';
+import ezCreate from 'ez-create';
 ```
 
 ## Usage
