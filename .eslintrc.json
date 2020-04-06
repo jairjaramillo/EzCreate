@@ -5,7 +5,8 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:sonarjs/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -17,7 +18,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "sonarjs"
     ],
     "rules": {
         "max-len": ["error", { "ignoreComments": true,
@@ -25,5 +27,6 @@
             "ignoreStrings": true,
             "ignoreTemplateLiterals": true,
             "ignoreRegExpLiterals": true }]
-    }
+    },
+    "ignorePatterns": ["/dist"]
 }
