@@ -48,7 +48,28 @@ const appendElement = document.getElementById('content');
 const ezButton = ezCreate(appendElement, 'btn btn-danger', 'my-button', 'button');
 ezButton.innerHTML = 'Press me';
 ```
-This will create a element: ```<button class="btn btn-danger" id="my-button">Press me</button>``` and append it to the HTML element with the 'content' id tag.
+This will create a element: ```<button class="btn btn-danger" id="my-button">Press me</button>``` and append it to the HTML element with the ```'content'``` id tag.
+
+You can ommit some parameters:
+
+```js
+const anotherElement = document.getElementById('navbar');
+
+const ezDiv = ezCreate(anotherElement);
+```
+This will create a element: ```<div></div>``` and append it to the HTML element with the ```'content'``` id tag.
+
+If you want to create an HTML element without class or id, but different from a ```<div>``` element, just add empty ```''``` parameters:
+
+```js
+const ezSpan = ezCreate(element, '', '', 'span');
+```
+
+Finally, if you want to create an element, but not append it to other element, use ```null``` as a parameter instead:
+
+```js
+const esElement = ezCreate(null, '', 'id');
+```
 
 For more information about the parameters and outputs, please look at the declaration file and intellisense description.
 
