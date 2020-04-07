@@ -28,5 +28,5 @@
             "ignoreTemplateLiterals": true,
             "ignoreRegExpLiterals": true }]
     },
-    "ignorePatterns": ["/dist"]
+    "ignorePatterns": ["/lib"]
 }
