@@ -1,8 +1,8 @@
 {
   "name": "ez-create",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Javascript tool to easily create HTML elements using Javascript",
-  "main": "./dist/bundle.js",
+  "main": "./lib/index.js",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
